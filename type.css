@@ -1,0 +1,46 @@
+body{
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+#originText{
+    margin-bottom: 20px;
+}
+
+#timer{
+    border: solid;
+    border-radius: 10px;
+    width: 72px;
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr 2fr 2fr;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-large;
+}
+
+#footer{
+    width: 200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+#btn{
+    border: solid;
+    border-radius: 20px;
+    width: 100px;
+    height: 35px;
+}
+
+#textArea{
+    border: 7px;
+    border-style: solid;
+    border-radius: 10px;
+    width: 500px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+#gif{
+    visibility: hidden;
+    margin-top: 20px;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="type.css">
+    <title>typing test</title>
+</head>
+<body>
+    <div id="originText">Here goes some random text, type it correctly as fast as you can. I am going to show you a gif if you spend more than a minute during this test</div>
+    <textarea id="textArea" name="textArea" rows="6" placeholder="The clock starts when you start typing. Rewrite the text above"></textarea>
+    <div id="footer">
+        <div id="timer">
+            <div class="num" id="min1">0</div>
+            <div class="num" id="min2">0</div>
+            <div>:</div>
+            <div class="num" id="sec1">0</div>
+            <div class="num" id="sec2">0</div>
+        </div>
+        <button id="btn" onclick="restart()">Restart</button>
+    </div>
+    <div id="gif">
+        <img src="https://media.tenor.com/images/a5ed6185a173a6a2a13dc4877e4d73e0/tenor.gif" alt="gif">
+    </div>
+    <script src="type.js"></script>
+</body>
+</html>
